@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+    
+    grid-row-start: 3;
+    grid-column-start: 3;
+
+    grid-row-end: 4;
+    grid-column-end: 5;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: Outfit;
+
+    display: grid; 
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+}
+
+main {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+h3 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    text-align: center;
+    
+}
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 25px;
+}
